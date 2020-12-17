@@ -1,0 +1,9 @@
+kms_froala_editor:
+        language: 'fr'
+        toolbarInline: false
+        includeCodeMirror: true
+        includeFontAwesome: true
+        includeJS: true
+        includeCSS: false
+        saveParams: { "id" : "myEditorField" }
+        saveInterval: 0

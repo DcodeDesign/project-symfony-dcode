@@ -1,0 +1,14 @@
+{{ form_start(form) }}
+
+<div class="form-group">
+    {{ form_label(form.title, 'Titre') }} <br/>
+    {{ form_widget(form.title, {'attr': {'type': 'text', 'class': 'form-control'}}) }}<br/>
+</div>
+<div class="form-group">
+    {{ form_label(form.content_article, 'Contenu') }} <br/>
+    {{ form_widget(form.content_article, {'attr': {'id':'myEditorField','class': 'form-control'}}) }}<br/>
+</div>
+
+<button type="submit" class="btn btn-primary">{{ button | default('Enregistrer') }}</button>
+
+{{ form_end(form) }}
